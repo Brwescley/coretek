@@ -50,28 +50,35 @@
 }
 
 /* Imagem de Fundo - SEÇÃO INÍCIO */
-#inicio{
-    background-image: url('https://cdn.bitrix24.site/bitrix/images/landing/krayt/equipment_repair/1.jpg'); /* Caminho da imagem */
-    background-size: cover;
-    background-position: 100%;
-    background-repeat: no-repeat;
-
-  background-color: rgba(0, 0, 0, 0.5);  /* camada escura */
+#inicio {
+  background-image: url('https://cdn.bitrix24.site/bitrix/images/landing/krayt/equipment_repair/1.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: darken;
   height: 100vh;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  box-sizing: border-box;
 }
+
 
 /*teste reponsivo*/
 @media (max-width: 768px) {
   #inicio {
     height: auto;
-    padding: 60px 20px;
-    background-position: top center;
+    min-height: 100vh;
     background-size: contain;
+    background-position: top center;
     background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 60px;
   }
 }
+
 
 
 
