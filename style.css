@@ -579,22 +579,19 @@ h2 {
 
 @media (max-width: 768px) {
   .menu-fixo {
-    padding: 5px 0;
-  }
-
-  .menu-fixo nav ul {
-    gap: 10px;
-    flex-direction: column;
+    padding: 0;
   }
 
   .menu-fixo nav li {
-    padding: 5px 0;
+    padding: 2px 0; /* Reduz ainda mais a altura da tarja */
   }
 
   .menu-fixo nav a {
-    font-size: 12px;
-    padding: 4px 6px;
+    font-size: 11px;
+    padding: 3px 6px;
   }
+}
+
 
   .servicos-conteudo p {
     font-size: 18px;
