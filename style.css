@@ -2,13 +2,15 @@
 .menu-fixo {
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 99.1%;
   background: linear-gradient(90deg, #1f2937, #111827); /* Gradiente moderno */
   color: white;
   z-index: 1000;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
   font-family: 'Russo One', sans-serif;
+  
 }
+
 
 .menu-fixo nav ul {
   list-style: none;
@@ -546,11 +548,12 @@ h2 {
     width: 100%;
   }
 
-  .menu-fixo nav ul {
-    flex-direction: column;
+   .menu-fixo nav ul {
+    flex-direction: row;
     background-color: #1f2937;
-  }
+    max-height: 100px;
 
+  }
   .menu-fixo nav li {
     padding: 10px 0;
   }
@@ -568,6 +571,9 @@ h2 {
   .menu-fixo nav a {
     font-size: 11px;
     padding: 3px 6px;
+  }
+  .menu-fixo {
+    width: 97%;
   }
 }
 
