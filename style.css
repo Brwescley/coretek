@@ -539,7 +539,7 @@ h2 {
     flex-direction: column;
   }
 
-.formulario-contato {
+  .formulario-contato {
     width: 97%;
     padding: 0, 0px;
     align-items: center;
@@ -552,16 +552,22 @@ h2 {
     width: 100%;
   }
 
-   .menu-fixo nav ul {
+  .menu-fixo nav ul {
     flex-direction: row;
     background-color: #1f2937;
     max-height: 100px;
 
   }
+
   .menu-fixo nav li {
-    padding: 10px 0;
+    padding: 0, 0;
+  }
+
+  .menu-fixo {
+    width: 97%;
   }
 }
+
 
 @media (max-width: 768px) {
   .menu-fixo {
