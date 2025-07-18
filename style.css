@@ -539,11 +539,15 @@ h2 {
     flex-direction: column;
   }
 
-  .formulario-contato {
-    width: 100%;
-    padding: 0 20px;
+.formulario-contato {
+    width: 97%;
+    padding: 0, 0px;
+    align-items: center;
   }
-
+.submit {
+  align-items: center;
+  color: #000;
+}
   .imagem-contato img {
     width: 100%;
   }
