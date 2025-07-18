@@ -564,7 +564,10 @@ h2 {
   }
 
   .menu-fixo {
-    width: 97%;
+ 
+ flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 }
 
